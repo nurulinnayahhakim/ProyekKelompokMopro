@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="685dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/ic_baseline_info_24"
+                android:text=" Info Aplikasi"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:text="Scarlett Manager 1.0"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="314dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="20dp"
+                android:text="Aplikasi ini merupakan sebuah aplikasi yang dapat digunakan
+untuk mengelola proses bisnis penjualan produk Scarlett. Produk Scarlett yang dijual
+terdapat pada menu Daftar Barang, yang isinya dapat dilihat dengan menekan tombol Lihat Daftar.
+Pada menu Daftar Barang pengguna dapat melihat daftar produk yang tersedia dengan informasi
+stok dan harga dari produk tersebut, yang dapat menjadi rujukkan pengguna untuk menjual
+produknya.
+"
+
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginRight="20dp"
+                android:text="Terdapat menu Kasir yang dapat diakses dengan menekan tombol
+Hitung. Dalam menggunakan menu Kasir cukup dengan memasukkan jumlah barang
+yang dibeli, lalu tekan tombol HITUNG, maka total pembelian akan muncul pada kotak total.
+Sehingga hasilnya dapat ditunjukkan dan diberikan kepada pembeli sebagai rincian yang harus
+dibayar."
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="275dp"
+                android:text="About Us"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/background1"
+                android:padding="10dp"
+                android:src="@drawable/nurul" />
+
+            <TextView
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/edittextstyle2"
+                android:text="Nurul Innayah Hakim\nNIM 3411181103\nDSE B Informatika 2018"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="390dp"
+                android:background="@drawable/background1"
+                android:padding="10dp"
+                android:src="@drawable/thomas" />
+
+            <TextView
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="390dp"
+                android:background="@drawable/edittextstyle2"
+                android:text="Thomas Adi Nugroho\nNIM 3411181099\nDSE B Informatika 2018"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="470dp"
+                android:background="@drawable/background1"
+                android:padding="10dp"
+                android:src="@drawable/andre" />
+
+            <TextView
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="470dp"
+                android:background="@drawable/edittextstyle2"
+                android:text="Christian Andre Salama\nNIM 3411181104\nDSE B Informatika 2018"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="550dp"
+                android:background="@drawable/background1"
+                android:padding="10dp"
+                android:src="@drawable/hary" />
+
+            <TextView
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="550dp"
+                android:background="@drawable/edittextstyle2"
+                android:text="Hary Setiyawan\nNIM 3411181111\nDSE B Informatika 2018"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
